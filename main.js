@@ -1,5 +1,5 @@
 const CLIENT_ID = '75e990ef57704218959169b860fd21c5';
-const REDIRECT_URI = 'https://spotify-matching-tester.netlify.app/callback'; // Must match your app's settings
+const REDIRECT_URI = 'https://spotify-matching-tester.netlify.app/index'; // Must match your app's settings
 const SCOPES = ['user-top-read', 'user-follow-read'];
 const AUTH_URL = `https://accounts.spotify.com/authorize?client_id=${CLIENT_ID}&redirect_uri=${encodeURIComponent(REDIRECT_URI)}&scope=${SCOPES.join('%20')}&response_type=token`;
 
